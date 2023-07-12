@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import natours from "../../Assets/Projects/natours.png";
+import traffic from "../../Assets/Projects/traffic-dashboard.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import safety from "../../Assets/Projects/safety-dashboard.png";
 
 function Projects() {
   return (
@@ -23,34 +23,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={safety}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Safety Stoplight"
+              description="This project uses NodeJS, Javascript, Axios, and Pug to display some safety statistics about the plant. It updates in real time using an API connection to Smartsheet connection."
+              ghLink="https://github.com/ColinKlich/Atrium-Safety-Board"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={natours}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Natours"
+              description="A tour booking website built using NodeJS, MongoDB, Express, Mongoose, and Postman. Includes a REST API."
+              ghLink="https://github.com/ColinKlich/Natours"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={traffic}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Traffic/Weather Dashboard"
+              description="Displays realtime traffic statistics between Tuscaloosa and Birmingham. Displays realtime weather centered around Vance,AL."
+              ghLink="https://github.com/ColinKlich/Traffic-Weather-Dashboard"
+              demoLink="https://colinklich.github.io/Traffic-Weather-Dashboard/"              
             />
           </Col>
 
