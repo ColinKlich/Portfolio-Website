@@ -27,7 +27,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+Based on a template by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). 
 
 ## Built With
 
