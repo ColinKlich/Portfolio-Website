@@ -7,7 +7,7 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
+  DiGithub,
   DiJava,
 } from "react-icons/di";
 import {
@@ -37,7 +37,7 @@ function Techstack() {
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />

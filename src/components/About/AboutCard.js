@@ -10,31 +10,29 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Colin Klich </span>
             from <span className="purple"> Nashville, TN.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            <br /> I am a Junior at The Universoty of Alabama studying Computer Science and Finance.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Additionally, I am currently employed as a software developer and IT project manager at Mercedes-Benz US Int'l.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
+              <ImPointRight /> Going Outdoors (Sailing, Hiking, Backpacking)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Instruments
+            </li>
+            <li className="about-activity">
               <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "If there is no struggle, there is no progress"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Frederick Douglass</footer>
         </blockquote>
       </Card.Body>
     </Card>
