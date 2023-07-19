@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Colin Klich </span>
             from <span className="purple"> Nashville, TN.</span>
-            <br /> I am a Junior at The Universoty of Alabama studying Computer Science and Finance.
+            <br /> I am a Senior at The University of Alabama studying Computer Science and Finance.
             <br />
             Additionally, I am currently employed as a software developer and IT project manager at Mercedes-Benz US Int'l.
             <br />
