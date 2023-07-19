@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import natours from "../../Assets/Projects/natours.png";
 import traffic from "../../Assets/Projects/traffic-dashboard.png";
 import safety from "../../Assets/Projects/safety-dashboard.png";
+import driving from "../../Assets/Projects/self-drive.png";
 
 function Projects() {
   return (
@@ -48,6 +49,16 @@ function Projects() {
               description="Displays realtime traffic statistics between Tuscaloosa and Birmingham. Displays realtime weather centered around Vance,AL."
               ghLink="https://github.com/ColinKlich/Traffic-Weather-Dashboard"
               demoLink="https://colinklich.github.io/Traffic-Weather-Dashboard/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={driving}
+              isBlog={false}
+              title="Self Driving Car JS"
+              description="A self-drving car simulation built using only vanilla js."
+              ghLink="https://github.com/ColinKlich/Self-Driving-Car-JS/"
+              demoLink="https://colinklich.github.io/Self-Driving-Car-JS/"              
             />
           </Col>
         </Row>
