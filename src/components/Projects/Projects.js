@@ -6,6 +6,7 @@ import natours from "../../Assets/Projects/natours.png";
 import traffic from "../../Assets/Projects/traffic-dashboard.png";
 import safety from "../../Assets/Projects/safety-dashboard.png";
 import driving from "../../Assets/Projects/self-drive.png";
+import blockchain from "../../Assets/Projects/blockchain.png";
 
 function Projects() {
   return (
@@ -59,6 +60,16 @@ function Projects() {
               description="A self-drving car simulation built using only vanilla js."
               ghLink="https://github.com/ColinKlich/Self-Driving-Car-JS/"
               demoLink="https://colinklich.github.io/Self-Driving-Car-JS/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blockchain}
+              isBlog={false}
+              title="Full Stack Blockchain and Cryptocurrency"
+              description="A React cryptocurrency wallet frontend, built on a Node/Express Blockchain API backend."
+              ghLink="https://github.com/ColinKlich/Blockchain"
+              demoLink="https://blockchain-topaz.vercel.app/"              
             />
           </Col>
         </Row>
