@@ -7,6 +7,7 @@ import traffic from "../../Assets/Projects/traffic-dashboard.png";
 import safety from "../../Assets/Projects/safety-dashboard.png";
 import driving from "../../Assets/Projects/self-drive.png";
 import blockchain from "../../Assets/Projects/blockchain.png";
+import scraper from "../../Assets/Projects/scraper.png";
 
 function Projects() {
   return (
@@ -70,6 +71,16 @@ function Projects() {
               description="A React cryptocurrency wallet frontend, built on a Node/Express Blockchain API backend."
               ghLink="https://github.com/ColinKlich/Blockchain"
               demoLink="https://blockchain-topaz.vercel.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={scraper}
+              isBlog={false}
+              title="Webscraper"
+              description="Multiple webscrapers built using Scrapy, Selenium, and Beautiful Soup"
+              ghLink="https://github.com/ColinKlich/Webscraper"
+              demoLink=""              
             />
           </Col>
         </Row>
