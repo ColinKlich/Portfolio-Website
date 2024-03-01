@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                href="https://medium.com/@colinklich23"
                 target="_blank"
                 rel="noreferrer"
               >
