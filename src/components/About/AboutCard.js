@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Nashville, TN.</span>
             <br /> I am a Senior at The University of Alabama studying Computer Science and Finance.
             <br />
-            Additionally, I am currently employed as a software developer and IT project manager at Mercedes-Benz US Int'l.
+            Additionally, I am currently employed as a Co-op at Mercedes-Benz US Int'l where I develop RPA applications, Python Scripting, and PowerBI dashboards.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

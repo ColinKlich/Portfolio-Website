@@ -8,6 +8,7 @@ import safety from "../../Assets/Projects/safety-dashboard.png";
 import driving from "../../Assets/Projects/self-drive.png";
 import blockchain from "../../Assets/Projects/blockchain.png";
 import scraper from "../../Assets/Projects/scraper.png";
+import excelBot from "../../Assets/Projects/excel_bot.png"
 
 function Projects() {
   return (
@@ -28,6 +29,17 @@ function Projects() {
               title="Safety Stoplight"
               description="This project uses NodeJS, Javascript, Axios, and Pug to display some safety statistics about the plant. It updates in real time using an API connection to Smartsheet connection."
               ghLink="https://github.com/ColinKlich/Atrium-Safety-Board"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={excelBot}
+              isBlog={false}
+              title="Excel Column Comparator Bot"
+              description="This project uses a custom written algorithm to compare data between different excel sheets/columns and return similar items along with a similarlity index and any selected columns from the previous two files."
+              ghLink="https://github.com/ColinKlich/Excel-Column-Comparator"
               demoLink=""
             />
           </Col>
