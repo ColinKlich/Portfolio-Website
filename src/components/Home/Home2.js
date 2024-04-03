@@ -29,7 +29,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Technologies and Products </b> , <b className="purple">Blockchain</b>, and
                 also in areas related to{" "}
                 <b className="purple">
                   AI.
@@ -38,7 +38,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js and Modern Javascript Frameworks</b> or
+              with the<b className="purple">MERN Stack</b> or
               <i>
                 <b className="purple">
                   {" "}
