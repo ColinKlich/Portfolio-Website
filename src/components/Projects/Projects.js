@@ -9,6 +9,8 @@ import driving from "../../Assets/Projects/self-drive.png";
 import blockchain from "../../Assets/Projects/blockchain.png";
 import scraper from "../../Assets/Projects/scraper.png";
 import excelBot from "../../Assets/Projects/excel_bot.png"
+import llama from "../../Assets/Projects/llama.png"
+import nvda from "../../Assets/Projects/nvda.png"
 
 function Projects() {
   return (
@@ -92,6 +94,26 @@ function Projects() {
               title="Webscraper"
               description="Multiple webscrapers built using Scrapy, Selenium, and Beautiful Soup"
               ghLink="https://github.com/ColinKlich/Webscraper"
+              demoLink=""              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={llama}
+              isBlog={false}
+              title="Scrappy LLM"
+              description="A Large Language Model built from scratch (without pretrained weights) based on the Llama 2 architecture"
+              ghLink="https://github.com/ColinKlich/scrappyLLM"
+              demoLink=""              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nvda}
+              isBlog={false}
+              title="ML Training"
+              description="Practice using Regression Models and simple Neural Networks to solve ML problems."
+              ghLink="https://github.com/ColinKlich/ML-Training"
               demoLink=""              
             />
           </Col>
