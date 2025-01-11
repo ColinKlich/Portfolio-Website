@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v1.0<br/>
+  Portfolio Website - v1.5<br/>
   <a href="[https://portfolio-website-colinklich.vercel.app/](https://www.colinklich.com/)" target="_blank">colinklich.tech</a>
 </h2>
 <div align="center">

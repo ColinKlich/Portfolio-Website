@@ -27,18 +27,18 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest's are in building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> , <b className="purple">Blockchain</b>, and
+                <b className="purple">Web Technologies and Products </b> , <b className="purple">Blockchain and Fintech</b>, and
                 also in areas related to{" "}
                 <b className="purple">
-                  AI.
+                  Security.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with the<b className="purple">MERN Stack</b> or
+              Whenever possible, I also apply my passion for <b className="purple">scripting and automation</b>,
+              or
               <i>
                 <b className="purple">
                   {" "}
