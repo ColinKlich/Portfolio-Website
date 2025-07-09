@@ -1,42 +1,38 @@
+
 <h2 align="center">
-  Portfolio Website - v1.5<br/>
-  <a href="[https://portfolio-website-colinklich.vercel.app/](https://www.colinklich.com/)" target="_blank">colinklich.tech</a>
+  Portfolio Website<br/>
+  <a href="https://www.colinklich.com/" target="_blank">colinklich.com</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+  <img alt="Portfolio Website Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## About This Project
 
-## TL;DR
+This is my personal portfolio website, designed to showcase my projects, skills, and experience as a developer. The site features a modern, responsive UI and highlights selected work, technical skills, and a downloadable resume. It serves as a central hub for my professional presence and a way for potential collaborators or employers to get in touch.
 
-Based on a portfolio by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). 
+## Tech Stack
 
-## Built With
-
-My personal portfolio <a href="[https://portfolio-website-colinklich.vercel.app/](https://www.colinklich.com/)" target="_blank">colinklich.com</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- **React.js** – Frontend framework for building a fast, interactive UI
+- **React-Bootstrap** – Responsive layout and UI components
+- **CSS3** – Custom styles and modern design
+- **JavaScript (ES6+)** – Application logic
+- **Vercel** – Deployment and hosting
 
 ## Features
 
-**📖 Multi-Page Layout**
+- 📖 Multi-Page Layout
+- 🎨 Modern, responsive design with React-Bootstrap and custom CSS
+- 🖼️ Project gallery with images and descriptions
+- 📝 Downloadable resume
+- 🌐 Social and professional links
+- 💡 Easy to customize and extend
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+---
+
+Originally inspired by [Soumyajit4419's Portfolio](https://github.com/soumyajit4419/Portfolio).
 
 **📱 Fully Responsive**
 
