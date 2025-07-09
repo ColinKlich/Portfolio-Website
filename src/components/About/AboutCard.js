@@ -8,14 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Colin Klich </span>
-            from <span className="purple"> Nashville, TN.</span>
-            <br /> I am a Senior at The University of Alabama studying Computer Science and Finance.
+            Hi, I'm <span className="purple">Colin Klich</span> from <span className="purple">Nashville, TN</span>.<br />
+            I'm a driven developer and problem solver with a background in Computer Science and Finance from The University of Alabama.<br />
             <br />
-            Additionally, I am currently employed as a Co-op at Mercedes-Benz US Int'l where I develop RPA applications, Python Scripting, and PowerBI dashboards.
+            My experience includes building automation solutions, developing web applications, and creating data-driven dashboards. At Mercedes-Benz US Int'l, I focused on RPA, Python scripting, and PowerBI, always aiming to deliver efficient, scalable results.<br />
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            I thrive on learning new technologies, collaborating with others, and turning ideas into polished, impactful products. Outside of tech, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
