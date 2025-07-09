@@ -29,7 +29,7 @@ function Projects() {
               imgPath={safety}
               isBlog={false}
               title="Safety Stoplight"
-              description="This project uses NodeJS, Javascript, Axios, and Pug to display some safety statistics about the plant. It updates in real time using an API connection to Smartsheet connection."
+              description="Real-time safety dashboard for manufacturing, built with Node.js and Axios. Integrates live data from Smartsheet APIs to visualize plant safety metrics and drive actionable insights for operations teams."
               ghLink="https://github.com/ColinKlich/Atrium-Safety-Board"
               demoLink=""
             />
@@ -40,7 +40,7 @@ function Projects() {
               imgPath={excelBot}
               isBlog={false}
               title="Excel Column Comparator Bot"
-              description="This project uses a custom written algorithm to compare data between different excel sheets/columns and return similar items along with a similarlity index and any selected columns from the previous two files."
+              description="Automates data comparison across Excel files using a custom algorithm. Delivers similarity scoring and detailed reporting—streamlining data validation and reconciliation for business workflows."
               ghLink="https://github.com/ColinKlich/Excel-Column-Comparator"
               demoLink=""
             />
@@ -51,7 +51,7 @@ function Projects() {
               imgPath={natours}
               isBlog={false}
               title="Natours"
-              description="A tour booking website built using NodeJS, MongoDB, Express, Mongoose, and Postman. Includes a REST API."
+              description="Full-stack tour booking platform with secure REST API, built on Node.js, Express, and MongoDB. Features user authentication, booking management, and modern UI for a seamless customer experience."
               ghLink="https://github.com/ColinKlich/Natours"
               demoLink="https://www.natours.dev/"
             />
@@ -62,7 +62,7 @@ function Projects() {
               imgPath={traffic}
               isBlog={false}
               title="Traffic/Weather Dashboard"
-              description="Displays realtime traffic statistics between Tuscaloosa and Birmingham. Displays realtime weather centered around Vance,AL."
+              description="Interactive dashboard providing real-time traffic and weather analytics for Alabama commuters. Built with React and public APIs to support informed travel decisions."
               ghLink="https://github.com/ColinKlich/Traffic-Weather-Dashboard"
               demoLink="https://colinklich.github.io/Traffic-Weather-Dashboard/"              
             />
@@ -72,7 +72,7 @@ function Projects() {
               imgPath={driving}
               isBlog={false}
               title="Self Driving Car JS"
-              description="A self-drving car simulation built using only vanilla js."
+              description="Browser-based self-driving car simulation using vanilla JavaScript. Demonstrates pathfinding, sensor logic, and real-time AI—all in an interactive, visual format."
               ghLink="https://github.com/ColinKlich/Self-Driving-Car-JS/"
               demoLink="https://colinklich.github.io/Self-Driving-Car-JS/"              
             />
@@ -82,7 +82,7 @@ function Projects() {
               imgPath={blockchain}
               isBlog={false}
               title="Full Stack Blockchain and Cryptocurrency"
-              description="A React cryptocurrency wallet frontend, built on a Node/Express Blockchain API backend."
+              description="End-to-end blockchain wallet app: React frontend and Node/Express backend. Implements secure transactions, blockchain logic, and a user-friendly interface for hands-on fintech experience."
               ghLink="https://github.com/ColinKlich/Blockchain"
               demoLink="https://blockchain-topaz.vercel.app/"              
             />
@@ -92,7 +92,7 @@ function Projects() {
               imgPath={scraper}
               isBlog={false}
               title="Webscraper"
-              description="Multiple webscrapers built using Scrapy, Selenium, and Beautiful Soup"
+              description="Suite of webscraping tools using Scrapy, Selenium, and BeautifulSoup. Automates data extraction for research, analytics, and business intelligence."
               ghLink="https://github.com/ColinKlich/Webscraper"
               demoLink=""              
             />
@@ -102,7 +102,7 @@ function Projects() {
               imgPath={llama}
               isBlog={false}
               title="Scrappy LLM"
-              description="A Large Language Model built from scratch (without pretrained weights) based on the Llama 2 architecture"
+              description="Large Language Model (LLM) built from scratch, inspired by Llama 2. Showcases deep learning, model architecture, and hands-on AI engineering."
               ghLink="https://github.com/ColinKlich/scrappyLLM"
               demoLink=""              
             />
@@ -112,7 +112,7 @@ function Projects() {
               imgPath={nvda}
               isBlog={false}
               title="ML Training"
-              description="Practice using Regression Models and simple Neural Networks to solve ML problems."
+              description="Hands-on machine learning projects: regression models and neural networks for real-world problem solving. Emphasizes practical ML skills and experimentation."
               ghLink="https://github.com/ColinKlich/ML-Training"
               demoLink=""              
             />
