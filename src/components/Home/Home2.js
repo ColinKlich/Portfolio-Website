@@ -19,16 +19,16 @@ function Home2() {
               ABOUT <span className="purple">ME</span>
             </h1>
             <p className="home-about-body">
-              I am a results-driven developer with a passion for building sleek, high-performance web applications that deliver real value. My expertise spans the full stack, with a focus on modern JavaScript, React.js, and scalable, maintainable code.
+              I am passionate about developing technical solutions that automate and optimize data processes, helping organizations work smarter and more efficiently.
               <br />
               <br />
-              <b className="purple">Key Skills:</b> React.js, JavaScript (ES6+), TypeScript, Node.js, Python, and C++.
+              My expertise includes full stack development (React.js, JavaScript/TypeScript, Node.js, Python, and C++), with a strong focus on building robust, scalable applications.
               <br />
               <br />
-              I thrive in environments where attention to detail, user experience, and code quality are top priorities. My interests include developing innovative web products, working with blockchain and fintech solutions, and applying automation and AI to solve complex problems.
+              I also have a strong interest in systems architecture and security, and enjoy contributing to projects that strengthen system reliability, streamline operations, and safeguard critical data assets.
               <br />
               <br />
-              I am always eager to collaborate, learn, and contribute to impactful projects. If you’re looking for a developer who combines technical excellence with a professional, design-focused approach, let’s connect.
+              I thrive in collaborative environments and am always eager to take on new challenges that drive innovation and deliver real value.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

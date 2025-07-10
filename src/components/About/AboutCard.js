@@ -9,11 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi, I'm <span className="purple">Colin Klich</span> from <span className="purple">Nashville, TN</span>.<br />
-            I'm a driven developer and problem solver with a background in Computer Science and Finance from The University of Alabama.<br />
+            I am passionate about developing technical solutions that automate and optimize data processes, helping organizations work smarter and more efficiently.<br />
             <br />
-            My experience includes building automation solutions, developing web applications, and creating data-driven dashboards. At Mercedes-Benz US Int'l, I focused on RPA, Python scripting, and PowerBI, always aiming to deliver efficient, scalable results.<br />
+            My background in Computer Science and Finance from The University of Alabama, along with hands-on experience at Mercedes-Benz US Int'l, has given me a strong foundation in automation, web development, and data-driven decision making. I enjoy working on projects that strengthen system reliability, streamline operations, and safeguard critical data assets.<br />
             <br />
-            I thrive on learning new technologies, collaborating with others, and turning ideas into polished, impactful products. Outside of tech, I enjoy:
+            I thrive in collaborative environments and am always eager to take on new challenges that drive innovation and deliver real value. Outside of tech, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
