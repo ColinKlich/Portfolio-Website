@@ -21,7 +21,7 @@ function Home() {
                 I'm <strong className="main-name" style={{ color: "#7f5af0", textShadow: "0 2px 16px #232946, 0 0 8px #7f5af0" }}>Colin Klich</strong>
               </h1>
               <p style={{ fontSize: "1.25em", color: "#f5f6fa", marginTop: 10, marginBottom: 0, fontWeight: 500, maxWidth: 520, textShadow: "0 1px 8px #181c2b" }}>
-                <span style={{ color: "#00c2d6", fontWeight: 700 }}>Full Stack Developer</span> <span style={{ color: "#7f5af0", fontWeight: 700 }}>| UI/UX Enthusiast</span> <span style={{ color: "#2cb67d", fontWeight: 700 }}>| Problem Solver</span>
+                <span style={{ color: "#00c2d6", fontWeight: 700 }}>Security Engineer</span> <span style={{ color: "#7f5af0", fontWeight: 700 }}>| Automation Expert</span> <span style={{ color: "#2cb67d", fontWeight: 700 }}>| Solutions Architect</span>
               </p>
               <div style={{ padding: 40, textAlign: "left" }}>
                 <Type />

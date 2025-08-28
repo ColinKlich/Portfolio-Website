@@ -11,6 +11,7 @@ import scraper from "../../Assets/Projects/scraper.png";
 import excelBot from "../../Assets/Projects/excel_bot.png"
 import llama from "../../Assets/Projects/llama.png"
 import nvda from "../../Assets/Projects/nvda.png"
+import homelab from "../../Assets/Projects/homelab.png"
 
 function Projects() {
   return (
@@ -26,11 +27,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={safety}
+              imgPath={homelab}
               isBlog={false}
-              title="Safety Stoplight"
-              description="Real-time safety dashboard for manufacturing, built with Node.js and Axios. Integrates live data from Smartsheet APIs to visualize plant safety metrics and drive actionable insights for operations teams."
-              ghLink="https://github.com/ColinKlich/Atrium-Safety-Board"
+              title="Homelab"
+              description="this is my playground for all things AI, servers, networking, and automation."
+              ghLink="https://github.com/ColinKlich/homelab"
               demoLink=""
             />
           </Col>

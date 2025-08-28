@@ -8,12 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I'm <span className="purple">Colin Klich</span> from <span className="purple">Nashville, TN</span>.<br />
-            I am passionate about developing technical solutions that automate and optimize data processes, helping organizations work smarter and more efficiently.<br />
+            Hi, I'm <span className="purple">Colin Klich</span>, a security-focused software engineer from <span className="purple">Nashville, TN</span>.<br />
+            I specialize in developing secure, automated solutions that protect and optimize critical systems while ensuring robust security practices are embedded at every level.<br />
             <br />
-            My background in Computer Science and Finance from The University of Alabama, along with hands-on experience at Mercedes-Benz US Int'l, has given me a strong foundation in automation, web development, and data-driven decision making. I enjoy working on projects that strengthen system reliability, streamline operations, and safeguard critical data assets.<br />
+            My foundation in Computer Science and Finance from The University of Alabama, combined with hands-on experience at Mercedes-Benz US Int'l, has equipped me with a unique perspective on securing complex systems. I excel at implementing security-first architectures, building automated security frameworks, and developing efficient solutions that balance protection with performance.<br />
             <br />
-            I thrive in collaborative environments and am always eager to take on new challenges that drive innovation and deliver real value. Outside of tech, I enjoy:
+            I'm particularly passionate about cybersecurity automation, secure software development, and creating tools that enhance system security while improving operational efficiency. Whether it's implementing zero-trust architectures, developing secure APIs, or building automated security testing frameworks, I focus on delivering solutions that are both secure and scalable.<br />
+            <br />
+            When I'm not securing systems or writing code, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
@@ -28,9 +30,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "If there is no struggle, there is no progress"{" "}
+            "Security is not a product, but a process"{" "}
           </p>
-          <footer className="blockquote-footer">Frederick Douglass</footer>
+          <footer className="blockquote-footer">Bruce Schneier</footer>
         </blockquote>
       </Card.Body>
     </Card>

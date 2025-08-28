@@ -19,16 +19,16 @@ function Home2() {
               ABOUT <span className="purple">ME</span>
             </h1>
             <p className="home-about-body">
-              I am passionate about developing technical solutions that automate and optimize data processes, helping organizations work smarter and more efficiently.
+              As a security-focused software engineer, I specialize in building robust systems that prioritize both security and efficiency through intelligent automation.
               <br />
               <br />
-              My expertise includes full stack development (React.js, JavaScript/TypeScript, Node.js, Python, and C++), with a strong focus on building robust, scalable applications.
+              My adaptable approach allows me to work across diverse technologies, from secure application development to infrastructure automation. I excel at identifying the right tools and technologies to create optimal solutions for complex problems.
               <br />
               <br />
-              I also have a strong interest in systems architecture and security, and enjoy contributing to projects that strengthen system reliability, streamline operations, and safeguard critical data assets.
+              With expertise in security implementation, process automation, and full-stack development, I build comprehensive solutions that protect assets while streamlining operations. I'm particularly skilled at developing automated security frameworks and efficient deployment pipelines.
               <br />
               <br />
-              I thrive in collaborative environments and am always eager to take on new challenges that drive innovation and deliver real value.
+              I thrive on tackling challenging technical problems and am constantly exploring new technologies to enhance security postures and automation capabilities. My goal is to create solutions that are not just secure and efficient, but also maintainable and scalable.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

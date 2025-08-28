@@ -1,11 +1,18 @@
 import React from "react";
+import { useCallback } from "react";
 import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 function Particle() {
+  const particlesInit = useCallback(async (engine) => {
+    await loadFull(engine);
+  }, []);
+
   return (
     <Particles
       id="tsparticles"
-      params={{
+      init={particlesInit}
+      options={{
         particles: {
           number: {
             value: 160,

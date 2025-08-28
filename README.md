@@ -1,42 +1,77 @@
 
 <h2 align="center">
-  Portfolio Website<br/>
+  Portfolio Website - Colin Klich<br/>
   <a href="https://www.colinklich.com/" target="_blank">colinklich.com</a>
 </h2>
+
+[![Hosted on Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://www.colinklich.com/)
+[![Built with React](https://img.shields.io/badge/Built%20with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+
 <div align="center">
   <img alt="Portfolio Website Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
 
-## About This Project
+## Overview
 
-This is my personal portfolio website, designed to showcase my projects, skills, and experience as a developer. The site features a modern, responsive UI and highlights selected work, technical skills, and a downloadable resume. It serves as a central hub for my professional presence and a way for potential collaborators or employers to get in touch.
+Welcome to my portfolio website repository! This site serves as a comprehensive showcase of my professional journey, featuring my projects, technical skills, and experience. Built with modern web technologies and hosted on Vercel's high-performance platform, it delivers a seamless and responsive user experience.
 
-## Tech Stack
+## 🚀 Live Demo
 
-- **React.js** – Frontend framework for building a fast, interactive UI
-- **React-Bootstrap** – Responsive layout and UI components
-- **CSS3** – Custom styles and modern design
-- **JavaScript (ES6+)** – Application logic
-- **Vercel** – Deployment and hosting
+Visit my portfolio at [colinklich.com](https://www.colinklich.com/) – Powered by Vercel's global edge network for optimal performance.
 
-## Features
+## 🛠️ Tech Stack
 
-- 📖 Multi-Page Layout
-- 🎨 Modern, responsive design with React-Bootstrap and custom CSS
-- 🖼️ Project gallery with images and descriptions
-- 📝 Downloadable resume
-- 🌐 Social and professional links
-- 💡 Easy to customize and extend
+- **Frontend Framework:** React.js with Hooks
+- **UI/Components:** React-Bootstrap
+- **Styling:** Custom CSS3 with modern features
+- **Performance:** Optimized builds with Create React App
+- **Deployment:** Vercel Platform
+- **Version Control:** Git & GitHub
+
+## ✨ Key Features
+
+- 🎯 Clean, modern UI design
+- 📱 Fully responsive across all devices
+- 🖼️ Dynamic project gallery
+- 📄 Downloadable resume
+- 🌐 Professional social links
+- ⚡ Fast page loads with Vercel
+- 🔄 Continuous deployment
+- 🎨 Custom animations and transitions
+
+## 💻 Development
+
+```bash
+# Clone the repository
+git clone https://github.com/ColinKlich/Portfolio-Website.git
+
+# Navigate to the project
+cd Portfolio-Website
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+## 🌟 Deployment
+
+This site is hosted on Vercel with automatic deployments from the main branch. Every push triggers a new build and deployment, ensuring the live site is always up to date.
+
+## 📝 License
+
+This project is open source and available under the MIT License.
 
 ---
 
-Originally inspired by [Soumyajit4419's Portfolio](https://github.com/soumyajit4419/Portfolio).
+### 🙏 Acknowledgments
 
-**📱 Fully Responsive**
+Originally inspired by [Soumyajit4419's Portfolio](https://github.com/soumyajit4419/Portfolio), with significant customizations and improvements.
 
-### Show your support
+### ⭐ Support
 
-Give a ⭐ if you like this website!
+If you find this project helpful, please consider giving it a star!
 
