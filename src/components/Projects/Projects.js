@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import natours from "../../Assets/Projects/natours.png";
 import traffic from "../../Assets/Projects/traffic-dashboard.png";
-import safety from "../../Assets/Projects/safety-dashboard.png";
+import petfindr from "../../Assets/Projects/petfindr.png";
 import driving from "../../Assets/Projects/self-drive.png";
 import blockchain from "../../Assets/Projects/blockchain.png";
 import scraper from "../../Assets/Projects/scraper.png";
@@ -35,7 +35,16 @@ function Projects() {
               demoLink=""
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={petfindr}
+              isBlog={false}
+              title="Petfindr"
+              description="This is a full stack web application designed to help users find their missing pets. It is built with Next.js, Clerk for authentication, Convex for database, Cloudinary for image storage, and currently hosted on Vercel. This is a side project of mine that could grow into a real business. Under development"
+              ghLink=""
+              demoLink="https://petfindr.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={excelBot}
