@@ -12,6 +12,7 @@ import excelBot from "../../Assets/Projects/excel_bot.png"
 import llama from "../../Assets/Projects/llama.png"
 import nvda from "../../Assets/Projects/nvda.png"
 import homelab from "../../Assets/Projects/homelab.png"
+import unsloth from "../../Assets/Projects/unsloth.png"
 
 function Projects() {
   return (
@@ -43,6 +44,16 @@ function Projects() {
               description="This is a full stack web application designed to help users find their missing pets. It is built with Next.js, Clerk for authentication, Convex for database, Cloudinary for image storage, and currently hosted on Vercel. This is a side project of mine that could grow into a real business. Under development"
               ghLink=""
               demoLink="https://petfindr.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={unsloth}
+              isBlog={false}
+              title="Unsloth LLM Finetuning"
+              description="A LLM finetuned on real estate data to demonstrate unsloth's capabilities. Built using Unsloth and Ollama"
+              ghLink="https://github.com/ColinKlich/Unsloth-llm"
+              demoLink=""
             />
           </Col>
           <Col md={4} className="project-card">
