@@ -1,22 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/ColinKlichResume.pdf";
+import pdf from "../../Assets/ColinKlichResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import 'react-pdf/dist/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
+
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
   import.meta.url,
 ).toString();
-
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   return (
     <div>
@@ -35,21 +37,34 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="d-flex justify-content-center">
+            <Page pageNumber={pageNumber} />
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+        <p>
+          Page {pageNumber} of {numPages}
+        </p>
+        {numPages && (
+            <div>
+              <Button
+                variant="primary"
+                disabled={pageNumber <= 1}
+                onClick={() => setPageNumber(pageNumber - 1)}
+              >
+                Previous
+              </Button>
+              <Button
+                variant="primary"
+                disabled={pageNumber >= numPages}
+                onClick={() => setPageNumber(pageNumber + 1)}
+                style={{ marginLeft: "10px" }}
+              >
+                Next
+              </Button>
+            </div>
+          )}
         </Row>
       </Container>
     </div>
