@@ -9,11 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi, I'm <span className="purple">Colin Klich</span>, a security-focused software engineer from <span className="purple">Nashville, TN</span>.<br />
-            I specialize in developing secure, automated solutions that protect and optimize critical systems while ensuring robust security practices are embedded at every level.<br />
+            My journey into the world of technology started at The University of Alabama, where I studied both Computer Science and Finance. This combination gave me a unique perspective on how critical systems are built and managed.
             <br />
-            My foundation in Computer Science and Finance from The University of Alabama, combined with hands-on experience at Mercedes-Benz US Int'l, has equipped me with a unique perspective on securing complex systems. I excel at implementing security-first architectures, building automated security frameworks, and developing efficient solutions that balance protection with performance.<br />
             <br />
-            I'm particularly passionate about cybersecurity automation, secure software development, and creating tools that enhance system security while improving operational efficiency. Whether it's implementing zero-trust architectures, developing secure APIs, or building automated security testing frameworks, I focus on delivering solutions that are both secure and scalable.<br />
+            I've always been fascinated by the challenge of securing complex systems, which led me to specialize in cybersecurity. I enjoy diving deep into security-first architectures, building automated security frameworks, and developing solutions that are not only secure but also efficient and scalable. I believe the best security is built-in, not bolted on.
+            <br />
             <br />
             When I'm not securing systems or writing code, I enjoy:
           </p>
