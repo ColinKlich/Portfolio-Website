@@ -6,6 +6,7 @@
   transition: box-shadow 0.3s, transform 0.3s;
   max-width: 100%;
   height: auto;
+  border: 2px solid var(--card-bg); /* Added border, changed to dark */
 }
 .modern-img:hover {
   transform: scale(1.03);

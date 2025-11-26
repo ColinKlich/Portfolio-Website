@@ -13,6 +13,8 @@ import llama from "../../Assets/Projects/llama.png"
 import nvda from "../../Assets/Projects/nvda.png"
 import homelab from "../../Assets/Projects/homelab.png"
 import unsloth from "../../Assets/Projects/unsloth.png"
+import docscribe from "../../Assets/Projects/docscribe.png"
+import aegis from "../../Assets/Projects/aegis.png"
 
 function Projects() {
   return (
@@ -26,6 +28,22 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <div className="projects-grid">
+            <ProjectCard
+              imgPath={docscribe}
+              isBlog={false}
+              title="DocScribe"
+              description="An Obsidian plugin that lets you upload a PDF or PowerPoint (PPTX) file and automatically converts it into clear, organized notes using a Large Language Model (LLM). Built with TypeScript and various LLM APIs."
+              ghLink="https://github.com/ColinKlich/DocScribe"
+              demoLink=""
+            />
+            <ProjectCard
+              imgPath={aegis}
+              isBlog={false}
+              title="Aegis"
+              description="Aegis is a C++ security scanner designed to detect sophisticated threats on Windows systems by leveraging multiple detection techniques through Windows APIs."
+              ghLink="https://github.com/ColinKlich/Aegis"
+              demoLink=""
+            />            
             <ProjectCard
               imgPath={homelab}
               isBlog={false}
