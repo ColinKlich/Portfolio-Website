@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import natours from "../../Assets/Projects/natours.png";
@@ -25,8 +25,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <div className="projects-grid">
             <ProjectCard
               imgPath={homelab}
               isBlog={false}
@@ -35,8 +34,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/homelab"
               demoLink=""
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={petfindr}
               isBlog={false}
@@ -45,8 +42,6 @@ function Projects() {
               ghLink=""
               demoLink="https://petfindr.vercel.app/"
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={unsloth}
               isBlog={false}
@@ -55,8 +50,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Unsloth-llm"
               demoLink=""
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={excelBot}
               isBlog={false}
@@ -65,9 +58,7 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Excel-Column-Comparator"
               demoLink=""
             />
-          </Col>
 
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={natours}
               isBlog={false}
@@ -76,9 +67,7 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Natours"
               demoLink="https://www.natours.dev/"
             />
-          </Col>
 
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={traffic}
               isBlog={false}
@@ -87,8 +76,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Traffic-Weather-Dashboard"
               demoLink="https://colinklich.github.io/Traffic-Weather-Dashboard/"              
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={driving}
               isBlog={false}
@@ -97,8 +84,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Self-Driving-Car-JS/"
               demoLink="https://colinklich.github.io/Self-Driving-Car-JS/"              
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blockchain}
               isBlog={false}
@@ -107,8 +92,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Blockchain"
               demoLink="https://blockchain-topaz.vercel.app/"              
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={scraper}
               isBlog={false}
@@ -117,8 +100,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/Webscraper"
               demoLink=""              
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={llama}
               isBlog={false}
@@ -127,8 +108,6 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/scrappyLLM"
               demoLink=""              
             />
-          </Col>
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nvda}
               isBlog={false}
@@ -137,8 +116,7 @@ function Projects() {
               ghLink="https://github.com/ColinKlich/ML-Training"
               demoLink=""              
             />
-          </Col>
-        </Row>
+        </div>
       </Container>
     </Container>
   );

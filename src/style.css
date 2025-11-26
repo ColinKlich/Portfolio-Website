@@ -1,16 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap');
 
 /* Modern image and card enhancements */
 .modern-img {
   border-radius: var(--border-radius);
-  box-shadow: 0 4px 24px 0 rgba(31, 38, 135, 0.13);
   transition: box-shadow 0.3s, transform 0.3s;
   max-width: 100%;
   height: auto;
 }
 .modern-img:hover {
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.27);
   transform: scale(1.03);
 }
 
@@ -869,4 +866,77 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Container using CSS Grid for a responsive layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Modern Card Styling */
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  /* Elevated variant using shadow */
+  /* Alternatively, use an outlined variant: */
+  /* border: 1px solid #e0e0e0; */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures consistent card height */
+}
+
+/* Fix for stretched images */
+.project-card img {
+  width: 100%;
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Prevents image distortion */
+  display: block;
+}
+
+/* Card content area with structured padding */
+.card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Pushes buttons to the bottom */
+}
+
+/* Typography hierarchy */
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #132745; /* Example from a modern palette[citation:2] */
+}
+
+.card-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 1.5rem;
+  flex-grow: 1; /* Allows description to take available space */
+}
+
+/* Button container */
+.card-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto; /* Ensures alignment at the bottom */
+}
+
+/* Interactive states */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.justify-content-center {
+  justify-content: center;
 }
