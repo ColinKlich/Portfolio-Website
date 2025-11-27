@@ -2,7 +2,7 @@
 <h2 align="center">
   Portfolio Website - Colin Klich<br/>
   <a href="https://www.colinklich.com/" target="_blank">colinklich.com</a>
-</h2>
+</h2> 
 
 [![Hosted on Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://www.colinklich.com/)
 [![Built with React](https://img.shields.io/badge/Built%20with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
@@ -24,9 +24,9 @@ Visit my portfolio at [colinklich.com](https://www.colinklich.com/) – Powered 
 ## 🛠️ Tech Stack
 
 - **Frontend Framework:** React.js with Hooks
+- **Build Tool:** Vite
 - **UI/Components:** React-Bootstrap
 - **Styling:** Custom CSS3 with modern features
-- **Performance:** Optimized builds with Create React App
 - **Deployment:** Vercel Platform
 - **Version Control:** Git & GitHub
 
@@ -53,8 +53,8 @@ cd Portfolio-Website
 # Install dependencies
 npm install
 
-# Start development server
-npm start
+# Start the development server
+npm run dev
 ```
 
 ## 🌟 Deployment
@@ -74,4 +74,3 @@ Originally inspired by [Soumyajit4419's Portfolio](https://github.com/soumyajit4
 ### ⭐ Support
 
 If you find this project helpful, please consider giving it a star!
-

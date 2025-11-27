@@ -12,6 +12,23 @@
   transform: scale(1.03);
 }
 
+/* Debug: Force buttons to be visible and clickable */
+.btn {
+  position: relative !important;
+  z-index: 1000 !important;
+  pointer-events: auto !important;
+  opacity: 1 !important;
+  background-color: #007bff !important;
+  border: 1px solid #007bff !important;
+}
+
+/* Remove any image-like styling */
+.project-card-view .btn {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
 .project-card-view {
   border-radius: var(--border-radius);
   box-shadow: var(--card-shadow);

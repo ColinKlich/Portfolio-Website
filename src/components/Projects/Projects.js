@@ -57,7 +57,7 @@ function Projects() {
               isBlog={false}
               title="Petfindr"
               description="This is a full stack web application designed to help users find their missing pets. It is built with Next.js, Clerk for authentication, Convex for database, Cloudinary for image storage, and currently hosted on Vercel. This is a side project of mine that could grow into a real business. Under development"
-              ghLink=""
+              ghLink="https://github.com/ColinKlich/Petfindr"
               demoLink="https://petfindr.vercel.app/"
             />
             <ProjectCard
